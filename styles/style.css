@@ -106,11 +106,12 @@ main{
     display: flex;
     gap: 30px;
     margin: 50px 150px;
+    justify-content: center;
 }
 .plan-items{
     /* background-color: pink; */
     padding: 30px 20px;
-    width: 220px;
+    width: 280px;
     border-radius: 5px;
 }
 
