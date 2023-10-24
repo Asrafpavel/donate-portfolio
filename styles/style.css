@@ -18,29 +18,109 @@
     text-align: center;
     
 }
+.text-primary{
+    color: #707070;
+    line-height: 25px;
+    font-size: 18px;
+}
 
 
 
 /* header styles  */
 
-.header{
-    height: 600px;
-    background-image: url(../images/donation9.jpg);
+.banner{
+    background-image: url("../images/donation4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .9;
+    text-align: center;
+    
+    
     
 }
-.header-items{
-    /* text-align: center; */
-    color: white;
-    padding: 150px 200px;
+
+.banner-items{
+    
+    padding: 110px 200px;
+    color: rgb(252, 248, 248);
+    background: linear-gradient(0deg, #050505e2 0%, #706e6e00 100% );
+}
+
+/* donate-today section  */
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.donate-today{
+    margin-top: 80px;
+    text-align: center;
+    padding: 0 200px;
+    
+    
+}
+.donate-title{
+    margin-bottom: 25px;
+    
+}
+.donate-desc{
+    margin-bottom: 20px;
+    margin: 0 80px;
+}
+.donate-items{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.amount{
+    margin-top: 20px;
+    background-color: #ecdfdf7d;
+    padding: 45px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #707070;
+    
+}
+
+.donate p{
+    margin-bottom: 10px;
+}
+.amount:nth-child(2){
+    background-color: rgba(250, 128, 114, 0.394);
+    border: 2px solid rgb(240, 87, 70);
+    color: rgb(243, 78, 60);
+}
+
+/* our donate plan styles  */
+
+.donate-plan{
+    margin-top: 80px;
+  
+}
+.donate-plan .donate-title{
     text-align: center;
 }
-  
-
-.header-items h1{
-    margin-bottom: 30px;
-    font-size: 45px;
-    font-weight: 700;
+.donate-plan .text-primary{
+    padding: 0 250px;
+    text-align: center;
 }
+.plan-container{
+    display: flex;
+    gap: 30px;
+    margin: 50px 150px;
+}
+.plan-items{
+    /* background-color: pink; */
+    padding: 30px 20px;
+    width: 220px;
+    border-radius: 5px;
+}
+.plan-items:first-child{
+    background-color: rgba(166, 209, 226, 0.554);
+}
+.plan-items:nth-child(2){
+    background-color: rgba(233, 189, 197, 0.582);
+}
+.plan-items:nth-child(3){
+    background-color: rgba(255, 239, 213, 0.77);
+}    
