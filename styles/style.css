@@ -32,9 +32,7 @@
     background-image: url("../images/donation4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    
-    
+    text-align: center; 
     
 }
 
@@ -115,6 +113,17 @@ main{
     width: 220px;
     border-radius: 5px;
 }
+
+.plan-items .plan-title{
+    font-size: 18px;
+    margin-top: 18px;
+}
+.plan-items .plan-desc{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #707070;
+}
+
 .plan-items:first-child{
     background-color: rgba(166, 209, 226, 0.554);
 }
@@ -124,3 +133,43 @@ main{
 .plan-items:nth-child(3){
     background-color: rgba(255, 239, 213, 0.77);
 }    
+
+
+/* depend section styles */
+
+.depend{
+    margin-top: 110px;
+    padding: 0 150px;
+    
+}
+.depend-container{
+    display: flex;
+    align-items: center;
+}
+
+.depend-container img {
+    height: 320px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.depend-title{
+    margin-bottom: 20px;
+}
+.items .depend-desc{
+    color: #707070;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+.items button{
+    width: 180px;
+}
+/* survive section styles  */
+
+.survive-items img{
+    margin: 0;
+}
+.survive-items .items{
+   margin-left: 50px;
+    
+}
