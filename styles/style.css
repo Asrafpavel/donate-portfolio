@@ -7,13 +7,13 @@
 }
 .btn-primary{
     color: aliceblue;
-    background-color:salmon ;
+    background-color: tomato ;
     border: none;
     height: 55px;
-    width: 150px;
+    width: 170px;
     margin-top: 20px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     
@@ -27,22 +27,32 @@
 
 
 /* header styles  */
+header{
 
-.banner{
     background-image: url("../images/donation4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.banner{
     text-align: center; 
-    
-}
-
-.banner-items{
-    
-    padding: 110px 200px;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+    padding:0 400px;
     color: rgb(252, 248, 248);
-    background: linear-gradient(0deg, #050505e2 0%, #706e6e00 100% );
 }
 
+.banner-items h1{
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-items P{
+    font-size: 18px;
+    line-height: normal;
+}
 /* donate-today section  */
 main{
     width: 1200px;
@@ -163,7 +173,7 @@ main{
     margin-bottom: 15px;
 }
 .items button{
-    width: 180px;
+    width: 240px;
 }
 /* survive section styles  */
 
@@ -231,6 +241,7 @@ footer{
     background-color:black ;
     padding: 50px;
     color: tomato;
+    width: 100%;
     
 }
 footer p{
