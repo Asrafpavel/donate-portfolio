@@ -27,8 +27,13 @@
 
 
 /* header styles  */
-header{
 
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+  
     background-image: url("../images/donation4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +45,7 @@ header{
     display: flex;
     align-items: center;
     background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
-    padding:0 400px;
+    padding:25rem;
     color: rgb(252, 248, 248);
 }
 
