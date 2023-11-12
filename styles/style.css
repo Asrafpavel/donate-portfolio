@@ -53,10 +53,18 @@ header{
     margin-bottom: 25px;
     font-size: 45px;
     font-weight: 600;
+    width: 600px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
-.banner-items P{
+.banner-items p{
     font-size: 18px;
     line-height: normal;
+    width: 550px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 /* donate-today section  */
 main{
@@ -252,4 +260,138 @@ footer{
 footer p{
     color: white;
     margin-top: 25px;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+    main , body{
+        max-width: 100%;
+    }
+    .banner{
+        padding: 0;
+        
+    }
+    
+    
+
+
+
+
+    .donate-today{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .donate-items .amount{
+        margin: 0; 
+        width: ;
+    }
+    .donate-items{
+        flex-direction: column;
+        margin: 0;
+        /* width: 150px; */
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        
+
+    }
+    .donate .text-primary{
+        margin-bottom: 20px;
+        padding-left: 10px;
+        
+    }
+    
+    
+    
+
+
+
+    .donate-plan{
+        padding: 0;
+        margin: 0;
+    }
+
+    .donate-plan .text-primary{
+        padding: 0;
+        
+        padding-left: 10px;
+    }
+    .plan-container{
+        flex-direction: column;
+        margin: 0;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .updates , .depend-container{
+        /* flex-direction: column; */
+        margin: 0;
+        margin-top: 30px;
+        gap: 20px;
+        
+    }
+    
+    .depend .depend-container{
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    .survive-items{
+        /* flex-direction: column-reverse; */
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .depend{
+        padding: 0;
+        margin-top: 20px;
+    }
+    .depend-container img{
+        width: 100%;
+        margin: 0;
+    }
+    .depend-container .items{
+        margin-left: 20px;
+    }
+
+    .items .depend-desc {
+        color: #707070;
+        margin-bottom: 0;
+    }
+        
+    .update-desc{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        /* width: 100%; */
+        text-align: left;
+        margin-left: 20px;
+    }
+    
+    .updates .container{
+       width: 100%;
+       margin: 0;
+       height: 90px;
+    }
+    
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    
 }
